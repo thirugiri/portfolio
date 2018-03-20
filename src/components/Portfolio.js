@@ -13,7 +13,6 @@ class Portfolio extends Component{
                     <Row>
                         <Col s={12}>
                         <Tabs className='tab-demo z-depth-1 blue-grey darken-4'>
-                            <Tab title="All" active><AllProjects /></Tab>
                             <Tab title="Bootstraps" active><Bootstraps /></Tab>
                             <Tab title="PHP" ><PHP /></Tab>
                             <Tab title="ReactJS"><ReactJS /></Tab>
@@ -28,42 +27,7 @@ class Portfolio extends Component{
         );
     }
 }
-class AllProjects extends Component{
-    render(){
-        return(
-            <Row>
-                <Col s={4}>
-                    <Card 
-                    header={<CardTitle image='https://www.w3schools.com/howto/img_fjords.jpg'>LeoClub of CEG</CardTitle>}>
-                        <div class="fixed-action-btn vertical click-to-toggle">
-                        <a  class="btn-floating halfway-fab waves-effect waves-light red">
-                        <i class="material-icons">add</i></a>
-                        <ul>
-                            <li><a class="btn-floating red" href="#"><Icon name='github' /></a></li>
-                            <li><a class="btn-floating blue" href="#"><Icon name='globe' /></a></li>
-                        </ul>
-                        </div>
-                        <p>A Complete Responsive Website for LEO Club of CEG | Developed using Bootstraps from Scratch</p>
-                    </Card>
-                </Col>
-                <Col s={4}>
-                    <Card 
-                    header={<CardTitle image='https://www.w3schools.com/howto/img_fjords.jpg'>LeoClub of CEG</CardTitle>}>
-                        <div class="fixed-action-btn vertical click-to-toggle">
-                        <a  class="btn-floating halfway-fab waves-effect waves-light red">
-                        <i class="material-icons">add</i></a>
-                        <ul>
-                            <li><a class="btn-floating red" href="#"><Icon name='github' /></a></li>
-                            <li><a class="btn-floating blue" href="#"><Icon name='globe' /></a></li>
-                        </ul>
-                        </div>
-                        <p>A Complete Responsive Website for LEO Club of CEG | Developed using Bootstraps from Scratch</p>
-                    </Card>
-                </Col>
-            </Row>
-        );
-    }
-}
+
 
 class Bootstraps extends Component{
     render(){

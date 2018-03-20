@@ -6,7 +6,7 @@ class FooterContent extends Component{
     render(){
         return(
             <div>
-              <Footer className='grey' copyrights="All rights reserved | Developed using react-materialize.">
+              <Footer className='blue-grey darken-4'  copyrights="All rights reserved | Developed using react-materialize.">
                 <Icon  name='facebook f' className='white-text' size='large' />
                 <Icon className='white-text' name='twitter' size='large'/>
                 <Icon  name='instagram' className='white-text' size='large'/>
